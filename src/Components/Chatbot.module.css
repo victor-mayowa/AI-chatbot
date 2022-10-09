@@ -1,0 +1,97 @@
+
+main {
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 2px 2px 12px -1px rgba(0, 0, 0, 0.75);
+}
+
+.imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.header {
+  background-color: #1071b5;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 2px 8px 11px -7px rgba(0, 0, 0, 0.75);
+}
+
+.header h2 {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.headerImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+.status {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(47, 248, 7);
+  border-radius: 50%;
+  position: absolute;
+  left: 43px;
+  top: 47px;
+}
+
+section {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* height: 100px; */
+  height: 300px;
+  padding: 0.4rem;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f4f6fc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a7a7a7;
+}
+.inputBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80% auto;
+}
+.input {
+  height: 3rem;
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.input:focus {
+  border: none;
+  inset: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: #8b8d96;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  transition: all, ease-in-out, 0.6s;
+}
+
+button:hover {
+  background-color: #9fa2af;
+}

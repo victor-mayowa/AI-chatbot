@@ -1,0 +1,36 @@
+.userInput {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 0rem;
+}
+
+.userInputText {
+  background-color: black;
+  width: 10rem;
+  padding: 0.7rem;
+  border-radius: 50px;
+  border-bottom-right-radius: 0px;
+  color: white;
+}
+
+.response {
+  display: flex;
+  align-items: center;
+}
+
+.responseText {
+  background: #1071b5;
+  width: 10rem;
+  padding: 0.7rem;
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  color: white;
+}
+
+.imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
